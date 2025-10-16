@@ -27,3 +27,16 @@ A simple **Task Manager** built with **Django REST Framework** that allows users
    ```bash
    git clone https://github.com/Mariam3649/task-manager.git
    cd task-manager
+## 🔑 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| POST | /api/register/ | Register new user |
+| POST | /api/login/ | Login user and get token |
+| GET | /api/tasks/ | List user’s tasks |
+| POST | /api/tasks/ | Create new task |
+| PUT | /api/tasks/<id>/ | Update a task |
+| DELETE | /api/tasks/<id>/ | Delete a task |
+| PATCH | /api/tasks/<id>/complete/ | Mark task as completed |
+
+   
